@@ -31,6 +31,7 @@ h2 {
 }
 
 .clock span {
+    
     width: 100px;
     height: 80px;
     background-color: white;
@@ -43,6 +44,17 @@ h2 {
 
 }
 
+.clock #hours{
+    border-radius: 15px 0 0 0;
+}
+
+.clock #ampm{
+    border-radius:  0 15px 0 0 ;
+}
+
+
+
+
 .clock .text {
     height: 30px;
     font-size: 15px;
@@ -53,8 +65,41 @@ h2 {
 }
 
 .clock #ampm {
-    bottom: 15px;
-    position: absolute;
     
+    position: relative;
+    
+}
+
+.date{
+    display: flex;
+}
+
+.date div{
+    margin: 5px;
+}
+
+
+
+.date span{
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    opacity: .80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 
 }
+
+.date #dd{
+    border-radius: 0  0  0 15px ;
+}
+
+.date #yyyy{
+    padding: 0px 55px 0px 55px;
+    border-radius: 0 0 15px 0 ;
+}
+
+
