@@ -43,17 +43,17 @@ function updateClock() {
         if(hour <4){
             tod = "Noon"
         }
-        else if(hour >4 && hour <5){
+        else if(hour >=4  && hour <5){
             tod = "Late Noon"
         }
-        else if(hour >5 && hour < 7){
+        else if(hour >=5 && hour < 7){
             tod = "Early Evening"
         }
 
-        else if(hour>7 && hour<9){
+        else if(hour>=7 && hour<9){
             tod = "Evening"
         }
-        else if(hour>9 && hour <11){
+        else if(hour>=9 && hour <11){
             tod = "Late Evening"
         }
 
