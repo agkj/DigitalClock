@@ -56,10 +56,9 @@ function updateClock() {
         else if(hour>=9 && hour <11){
             tod = "Late Evening"
         }
-
-
-
-
+    }
+    else{
+        if(hour )
     }
 
 

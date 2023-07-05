@@ -1,2 +1,3 @@
-# DigitalClock
-Clock Project using HTML/CSS/JS
+# DigitalClock project
+Clock Project using HTML/CSS/JS 
+
